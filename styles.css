@@ -1,0 +1,179 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("https://media-public.canva.com/MADGyI05cyg/4/screen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto"; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+a {
+  color: white;
+  text-decoration: none; }
+  a:hover {
+    color: grey; }
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  z-index: 100; }
+  header #branding {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 15px;
+    letter-spacing: 2px; }
+  header #email {
+    float: right;
+    background: #333333;
+    opacity: 0.8;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; }
+    header #email:hover {
+      opacity: 0.6; }
+
+#titleWrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #titleWrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    opacity: 0.2; }
+  #titleWrap .titleFlex {
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 100; }
+    #titleWrap .titleFlex h1 {
+      font-size: 78px;
+      font-weight: bold;
+      margin-top: 0;
+      margin-bottom: 5px; }
+      @media screen and (max-width: 500px) {
+        #titleWrap .titleFlex h1 {
+          margin-bottom: 20px; } }
+    #titleWrap .titleFlex h4 {
+      font-size: 20px;
+      letter-spacing: 5px; }
+      @media screen and (max-width: 500px) {
+        #titleWrap .titleFlex h4 {
+          width: 70%;
+          margin: 0 auto 20px auto; } }
+    #titleWrap .titleFlex #subscribeWrap {
+      margin: 0 auto;
+      display: block; }
+      #titleWrap .titleFlex #subscribeWrap input {
+        background: transparent;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        width: 380px;
+        padding: 10px;
+        color: white;
+        border: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        position: relative; }
+        #titleWrap .titleFlex #subscribeWrap input::placeholder {
+          color: white;
+          text-align: center;
+          font-size: 18px;
+          font-weight: bold; }
+    #titleWrap .titleFlex button {
+      width: 380px;
+      padding: 7px;
+      opacity: 0.8;
+      background: #605c8e;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      transition: all 0.3s ease-in-out; }
+      #titleWrap .titleFlex button:hover {
+        opacity: 0.5; }
+    #titleWrap .titleFlex .container {
+      margin-top: 40px;
+      text-align: center;
+      color: white;
+      padding-left: 150px;
+      padding-right: 150px; }
+      #titleWrap .titleFlex .container h1 {
+        font-size: 60px; }
+        @media screen and (max-width: 500px) {
+          #titleWrap .titleFlex .container h1 {
+            margin-top: 10px; } }
+      #titleWrap .titleFlex .container h3 {
+        font-size: 20px;
+        color: #e1e1e1;
+        letter-spacing: 1px; }
+      @media screen and (max-width: 500px) {
+        #titleWrap .titleFlex .container {
+          margin-bottom: 20px;
+          padding-left: 75px;
+          padding-right: 75px; } }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  z-index: 100; }
+  footer #bottomLeft {
+    float: left;
+    margin-left: 25px;
+    font-size: 21px;
+    letter-spacing: 2px; }
+    @media screen and (max-width: 500px) {
+      footer #bottomLeft {
+        text-align: center;
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding-bottom: 10px;
+        font-weight: bold; } }
+  footer #social {
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 25px; }
+    @media screen and (max-width: 500px) {
+      footer #social {
+        text-align: center;
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding-right: 30px; } }
+    footer #social ul {
+      list-style: none;
+      padding: 0; }
+      footer #social ul li {
+        display: inline;
+        font-size: 20px;
+        margin-left: 30px;
+        color: white; }
+
+/*# sourceMappingURL=styles.css.map */
