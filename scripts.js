@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var countDownDate = new Date("Nov 18, 2019 12:00:00").getTime();
+    var countDownDate = new Date("Jan 18, 2020 9:00:00").getTime();
 
     var updateClock = setInterval(function() {
         var currentTime = new Date().getTime();
